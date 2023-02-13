@@ -1,0 +1,502 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+header #head{
+    background-color: rgb(88, 194, 243);
+    padding: 0.5rem 4rem;
+    
+}
+#head p{
+    font-size: 1.7rem;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+#head p a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav{
+    background-color: rgb(245, 245, 245,0.3);
+    display: flex;
+    align-items: center;
+    padding: 1rem 6rem ;
+    justify-content: space-between;
+    
+}
+nav .logo img{
+      width: 6rem;
+      
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    margin-top: 1rem;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.8rem;
+    padding: 1rem 2rem ;
+}
+nav ul li .active{
+    color: rgb(88, 194, 243);
+}
+nav ul li .active:hover{
+    background-color: white;
+    border-radius: 0.5rem;
+    color: rgb(88, 194, 243);
+
+}
+nav ul li a:hover{
+    background-color: rgb(88, 194, 243);
+    color: white;
+    border-radius: 0.5rem;
+}
+@media (max-width:540px) {
+    html{
+        font-size: 8px;
+    }
+    nav{
+        display: block;
+        text-align: center;
+        padding: 0.5rem;
+    }
+    nav ul{
+        justify-content: space-between;
+        
+    }
+    
+}
+@media (min-width:500px)and (max-width:900px) {
+    html{
+        font-size: 8.5px;
+    }
+    
+}
+/*----section page1---*/
+
+.page1{
+    padding: 1rem 6rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+   
+}
+.section-content{
+        margin: 3rem;
+}
+.section-content h1{
+    font-size: 4.5rem;
+}
+.section-content h1 span{
+    color: rgb(88, 194, 243);
+}
+.section-content p{
+    font-size: 2rem;
+    color: rgb(54, 54, 54);
+    line-height: 2.5rem;
+    margin-top: 1rem;
+}
+.section-content button{
+    margin-top: 3.5rem;
+    padding: 1rem 2.5rem;
+    border: none;
+    background-color: rgb(88, 194, 243);
+    color: white; 
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.section-content h2{
+    font-size: 1.8rem;
+    color: rgb(6, 39, 6);
+    margin-top: 2rem;
+
+}
+.section-content h3{
+    font-size: 1.5rem;
+    margin-top: 0.8rem;
+}
+.section-content h3 span{
+    color: rgb(88, 194, 243);
+    
+}
+.section-image{
+    text-align: center;  
+    margin-top: 3rem; 
+    
+}
+.section-image img{
+    width: 35rem;
+    height: 43rem;
+    border-radius: 15% 2%;
+    margin: auto;
+    
+}
+@media (max-width:540px) {
+
+    .page1{
+       display: block;
+        padding: 0.2rem 2rem;
+        box-sizing: border-box;
+    }
+    
+    .section-image{
+        text-align: center;
+    }
+} 
+@media (min-width:540px) and (max-width:751px) {
+   
+    .page1{
+        display: block;
+        padding: 1rem 4rem;
+        text-align: center;
+    }
+    .section-image img{
+        width: 60%;
+    }
+}
+
+
+
+/*----section page2---*/
+.page2{
+    background-color: rgba(91, 155, 182, 0.1);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 4rem 6rem;
+}
+.section-content-2{
+    margin: 4rem;
+}
+.section-content-2 h1{
+    font-size: 4.5rem;
+    color: rgb(88, 194, 243);
+}
+.section-content-2 p{
+    font-size: 2rem;
+    color: black;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.section-content-2 button{
+    padding: 1rem 2.5rem;
+    border: none;
+    background-color: rgb(88, 194, 243);
+    color: white; 
+    font-weight: bold;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+}
+.section-image2 img{
+    width: 35rem;
+    height: 45rem;
+    border-radius: 2% 2%;
+    margin: auto;
+    
+}
+
+.section-image2{
+        
+    text-align: center;
+}
+@media (max-width:540px)  {
+    .page2{
+        display: block;
+    }
+    
+}
+@media (min-width:540px) and (max-width:751px) {
+    .page2{
+        display: block;
+        padding: 2rem 3rem;
+        text-align: center;
+    }
+    .section-image2 img{
+        width: 60%;
+    }
+    
+}
+
+    
+
+/*-----section page3---*/
+.page3{
+    text-align: center;
+    padding: 3rem 5rem;
+}
+.page3 h1{
+    font-size: 4rem;
+    color: rgb(88, 194, 243);
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+.flex img{
+    width: 15rem;
+}
+.flex h2{
+    font-size: 2.2rem;
+    margin-top: 1rem ;
+    font-weight: lighter;
+}
+.flex p{
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    color: rgb(100, 98, 98);
+}
+.flex-box{
+    padding: 2rem 6rem;
+}
+@media (max-width:540px) {
+  
+    .flex{
+        display: block;
+    }
+    .flex img{
+        width: 10rem;
+    }   
+}
+@media (min-width:540px) and (max-width:751px) {
+    .page3{
+        text-align: center;
+        padding: 3rem 4rem;
+    }
+    .flex{
+       display: block;
+    }
+    
+    
+}
+@media (max-width:370px) {
+    html{
+        font-size: 6.3px;
+    }
+    .page1,.page2,.page3,nav{
+        padding: 0rem;
+    }   
+}
+@media (max-width:290px) {
+    html{
+        font-size: 5.5px ;
+    }
+    
+}
+/*-----section page4---*/
+.page4{
+    text-align: center;
+    padding: 4rem 6rem;
+    background-color: rgba(91, 155, 182, 0.1);
+}
+.page4 h1{
+    color: rgb(88, 194, 243);
+    font-size: 4rem;
+}
+.page4 p{
+    font-size: 2rem;
+    margin: 2rem ;
+}
+.page4 button{
+    padding: 1rem 2.5rem;
+    border:0.1rem solid grey;
+    background-color: white;
+    color: black; 
+    font-weight: bold;
+    border-radius: 0.5rem;
+    margin: 1rem 2rem;
+    font-size: 1.5rem;
+}
+.page4 button.active{
+    padding: 1rem 2.5rem;
+    border: none;
+    background-color: rgb(88, 194, 243);
+    color: white; 
+    font-weight: bold;
+    border-radius: 0.5rem;
+    margin: 1rem 2rem;
+}
+.page4 span{
+    color: rgb(88, 194, 243);
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 2rem;
+    grid-gap:2rem;
+    
+}
+#grid-box{
+    background-color: white;
+    display: flex;
+    padding: 1rem;
+}
+#grid-box img{
+    width: 6rem;
+    margin-right: 2rem;
+   
+}
+#grid-box p{
+     font-size: 1.5rem;
+    margin: 0.5rem 0;
+}
+#grid-box button{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    background-color: rgb(88, 194, 243);
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+    
+}
+#grid-box button:hover{
+    background-color: rgb(31, 158, 216);
+
+}
+#grid-box input[type=number]{
+    width: 10%;
+}
+#grid-box h2,h3{
+    display: inline;
+    font-size: 2rem;
+    
+}
+#grid-box h3{
+    color: rgb(88, 194, 243);
+    
+}
+.grid-boxes{
+    text-align: start;
+}
+.name-prive{
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width:540px) {
+    .grid{
+        display: block;
+    }
+    #grid-box{
+        margin: 0.7rem;
+    }
+    
+}
+@media (min-width:540px) and (max-width:751px) {
+    .grid{
+        display: block;
+    }
+    
+}
+@media (min-width:320px) and (max-width:540px)  {
+         .page4{
+            padding: 1rem;
+         }
+}
+
+@media (max-width:320px) {
+    .grid{
+        margin: 0;
+    }
+    #page4{
+        text-align: center;
+        
+    }
+    
+}
+/*----section page=bottam----*/
+#bottam{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    padding: 4rem 6rem;
+}
+.bottam-boxes{
+   display: flex;  
+}
+.bottam-boxes1{
+    margin: 3rem 6rem;
+}
+.bottam-box{
+    padding: 3rem;
+}
+.bottam-box img{
+    width: 8rem;
+}
+.bottam-box p{
+    font-size: 1.9rem;
+    margin-top: 1rem;
+    color: rgb(77, 76, 76);
+}
+.bottam-boxes ul{
+    list-style: none;
+}
+.bottam-boxes li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    line-height: 4rem;
+    color: rgb(77, 76, 76);
+    
+}
+.bottam-boxes li .active{
+    font-size: 1.8rem;
+    color: black;
+}
+@media (max-width:540px) {
+    #bottam{
+        display: block;
+        padding: 3rem 4rem;
+    }
+    .bottam-boxes1{
+        margin: 2rem;
+    }   
+}
+@media (min-width:540px) and (max-width:751px) {
+    #bottam{
+        display: block;
+        padding: 3rem 4rem;
+        
+    }
+    .bottam-boxes{
+        justify-content: space-between;
+    }
+    
+    
+}
+.bottam{
+    background-color: rgba(91, 155, 182, 0.3);
+    padding: 1rem 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+.bottam p{
+    font-size:1.6rem ;
+}
+.bottam span{
+    color: rgb(88, 194, 243);
+}
+.bottam img{
+    width: 3.5rem;
+    padding: 0.5rem;
+}
+.bottam-content{
+    align-self: center;
+}
+.img-flex{
+    display: flex;
+    
+}
+.img-back{
+    background-color: white;
+    border-radius: 10rem;
+    margin-right:1.5rem ;
+}
